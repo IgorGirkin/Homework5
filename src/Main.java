@@ -1,15 +1,33 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Задание_4");
-        int deliveryDistance = 120;
-        if(deliveryDistance<=20) {
-                System.out.println("Потребуется дней: 1");
-            } else if (deliveryDistance>=20&&deliveryDistance<=60) {
-            System.out.println("Потребуется дней: 2" );
-        } else if (deliveryDistance>60&&deliveryDistance<=100) {
-            System.out.println("Потребуется дней: 3" );
-        } else { System.out.println("С Вами свяжется менеджер, ожидайте." );
-        }
+        System.out.println("Задание_5");
+        int monthNumber = 13;
+        switch (monthNumber) {
+            case 1:
+            case 2:
+           case 12:
+               System.out.println("зима");
+           break;
+           case 3:
+           case 4:
+           case 5:
+               System.out.println("весна");
+           break;
+           case 6:
+           case 7:
+           case 8:
+               System.out.println("лето");
+           break;
+            case 9:
+            case 10:
+            case 11:
+               System.out.println("осень");
+           break;
+           default:
+        System.out.println("Такого месяца не существует");
+       }
     }
 }
+
+
 
